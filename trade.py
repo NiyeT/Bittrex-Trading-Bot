@@ -1,9 +1,9 @@
-import postPolo
+import postBittrex
 import re
 from threading import Timer
 from time import time
 
-polo=postPolo.bittrex
+polo=postBittrex.bittrex
 
 bitcoin="USDT-BTC"
 
@@ -28,7 +28,7 @@ def sellOut(coin):
 
 def toUSD(coinPair,amount):
 	coinPrice=buyIn(coinPair)
-	return amount * coinPrice	
+	return amount * coinPrice
 	# split=re.findall("[^-]+",coinPair)
 	# coin=split[1]
 	# market="USDT-"+split[0]
