@@ -6,7 +6,7 @@ import interval
 global Invested
 global totalProfit
 
-Invested=True
+Invested=False
 totalProfit=0
 
 
@@ -22,7 +22,7 @@ Triggers={
     "buy":False,
     "sell":False,
     "safety":-.15,
-    "buyIn":2.64294304
+    "buyIn":0
 }
 
 def buyMessage(coinPair,amount,receipt):
