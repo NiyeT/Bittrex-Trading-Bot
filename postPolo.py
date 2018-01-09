@@ -2,8 +2,8 @@ import re
 import json
 import api
 
-key="4908c4b47aef4eecae9cfa51a8dd4ad3"
-secret="61a836fc826d415090d15b7fc3bc203c"
+key=""
+secret=""
 
 bittrex=api.bittrex(key,secret)
 
